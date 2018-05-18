@@ -1,0 +1,9 @@
+<div>
+  <form [formGroup]="userDetailsForm" (ngSubmit)="submitUserDetails(userDetailsForm)" >
+    <input formControlName="name" placeholder="Full Name" >
+    <input formControlName="email" placeholder="Email" >
+
+    <button type="submit" class="btn btn-primary">Add User</button>
+  </form>
+</div>
+
